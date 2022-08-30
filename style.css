@@ -1,41 +1,134 @@
 body {
-    font-family: 'poppins', sans-serif;
     margin: 0%;
-}
-
-h1 {
-    font-size: 50px;
-
-}
-
-.orange-color {
-    color: rgb(255, 119, 0);
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
     display: flex;
+    padding-bottom: 150px;
+    padding-top: 0.5%;
+}
+
+.top-bannar {
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 5%;
+    width: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
-.half-width img {
-    width: 100%;
+p {
+    background-color: rgb(244, 120, 4);
+    color: white;
+    margin: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: orange;
 }
 
 .link-button1 {
     text-decoration: none;
-    background-color: rgb(255, 149, 0);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    border-radius: 5px;
     color: white;
-    font-weight: 700;
+    border-radius: 5px;
+    font-weight: 800;
+    margin: 0%;
+}
+
+.middle1 {
+    width: 49%;
+    float: right;
+    margin-left: 1%;
+    padding-left: 2%;
+}
+
+.middle2 {
+    width: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+
+.middle {
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.link-button22 {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+    margin: 0%;
+}
+
+dream-area {
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.experience-area h1 {
+    padding-left: 5%;
+}
+
+.experience-area h3 {
+    color: orange;
+    padding-left: 5%;
 
 }
 
-.top-bannar {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.notun-mama {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(231, 71, 164), cyan);
+    border-image-slice: 1;
+    margin-left: 2%;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web h2 {
+    padding-left: 5%;
+
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    padding-left: 0.25%;
+}
+
+footer pre {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: dimgray;
 }
